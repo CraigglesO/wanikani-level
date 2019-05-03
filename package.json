@@ -1,29 +1,30 @@
 {
-  "name": "@iftt/skeleton-module",
+  "name": "wanikani-level",
   "version": "2.0.0",
-  "description": "When creating new NodeJS modules, use this skeletal structure",
+  "description": "Analyzes a Japanese sentence and decides at what level of Wanikani you can read it.",
   "main": "lib/index.js",
   "scripts": {
     "lint+build+test": "yarn run lint && yarn run build && yarn run test",
     "lint": "echo linting... && standard ./src/**/*.js && echo 'successfully linted'",
-    "build": "echo building... && babel src/ -d lib/ && echo 'successfully built'",
+    "build": "echo building... && babel src/ -d lib/ --source-maps inline --copy-files && echo 'successfully built'",
     "prepublish": "yarn run build",
     "test": "echo running server tests... && standard && tape test/**/*.js | tap-summary && echo 'successfully completed tests'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iftt/skeleton-module.git"
+    "url": "https://github.com/CraigglesO/wanikani-level.git"
   },
   "author": "Craig OConnor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iftt/skeleton-module/issues"
+    "url": "https://github.com/CraigglesO/wanikani-level/issues"
   },
-  "homepage": "https://github.com/iftt/skeleton-module#readme",
+  "homepage": "https://github.com/CraigglesO/wanikani-level#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/plugin-syntax-flow": "^7.2.0",
+    "@babel/plugin-transform-async-to-generator": "^7.4.4",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-flow": "^7.0.0",
     "babel-eslint": "^10.0.1",
@@ -41,5 +42,12 @@
     "plugins": [
       "flowtype"
     ]
+  },
+  "dependencies": {
+    "bluebird": "^3.5.4",
+    "kuromoji": "^0.1.2",
+    "kuroshiro": "^1.1.2",
+    "leveldown": "^5.0.3",
+    "levelup": "^4.0.1"
   }
 }

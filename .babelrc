@@ -4,8 +4,26 @@
   "sourceMap": true,
   "comments": false,
   "presets": [
-    ["@babel/preset-env", { "useBuiltIns": "entry", "corejs": "core-js@3" }],
+    [
+      "@babel/preset-env",
+      {
+        "modules": "commonjs",
+        "targets": {
+          "node": "current"
+        },
+        "exclude": ["@babel/plugin-transform-regenerator"]
+      }
+    ],
     "@babel/preset-flow"
   ],
-  "plugins": ["@babel/plugin-syntax-flow"]
+  "plugins": [
+    [
+      "@babel/plugin-transform-async-to-generator",
+      {
+        "module": "bluebird",
+        "method": "coroutine"
+      }
+    ],
+    "@babel/plugin-syntax-flow"
+  ]
 }

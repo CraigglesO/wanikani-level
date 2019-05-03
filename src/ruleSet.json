@@ -1,0 +1,238 @@
+{
+  "名詞": {
+    "expl": "noun",
+    "skip": false
+  },
+  "一般": {
+    "expl": "common",
+    "skip": false
+  },
+  "助詞": {
+    "expl": "particle",
+    "skip": true
+  },
+  "格助詞": {
+    "expl": "case-marking particle",
+    "skip": true
+  },
+  "動詞": {
+    "expl": "verb",
+    "skip": false
+  },
+  "自立": {
+    "expl": "independent",
+    "skip": false
+  },
+  "助動詞": {
+    "expl": "auxiliary verb",
+    "skip": true
+  },
+  "接続助詞": {
+    "expl": "conjunction particle",
+    "skip": true
+  },
+  "非自立": {
+    "expl": "not independent​",
+    "skip": false
+  },
+  "記号": {
+    "expl": "symbol; notation",
+    "skip": true
+  },
+  "句点": {
+    "expl": "period",
+    "skip": true
+  },
+  "固有名詞": {
+    "expl": "proper noun​",
+    "skip": false
+  },
+  "人名": {
+    "expl": "name​",
+    "skip": true
+  },
+  "名": {
+    "expl": "name",
+    "skip": true
+  },
+  "接尾": {
+    "expl": "suffix",
+    "skip": false
+  },
+  "読点": {
+    "expl": "comma",
+    "skip": true
+  },
+  "形容動詞語幹": {
+    "expl": "adjectival noun",
+    "skip": false
+  },
+  "並立助詞": {
+    "expl": "parallel marker; particle used to list items",
+    "skip": true
+  },
+  "連体化": {
+    "expl": "adnominal adjective​",
+    "skip": false
+  },
+  "係助詞": {
+    "expl": "binding particle",
+    "skip": true
+  },
+  "副詞": {
+    "expl": "adverb",
+    "skip": false
+  },
+  "助詞類接続": {
+    "expl": "conjunction",
+    "skip": true
+  },
+  "副助詞": {
+    "expl": "adverbial particle",
+    "skip": true
+  },
+  "サ変接続": {
+    "expl": "irregular conjugation of s-stem verbs; conjugation of the verb \"suru\"",
+    "skip": false
+  },
+  "引用": {
+    "expl": "quotation",
+    "skip": true
+  },
+  "終助詞": {
+    "expl": "sentence-ending particle",
+    "skip": true
+  },
+  "接続詞": {
+    "expl": "conjunction",
+    "skip": true
+  },
+  "代名詞": {
+    "expl": "pronoun",
+    "skip": false
+  },
+  "地域": {
+    "expl": "region",
+    "skip": false
+  },
+  "国": {
+    "expl": "country",
+    "skip": false
+  },
+  "数": {
+    "expl": "grammatical number",
+    "skip": false
+  },
+  "連体詞": {
+    "expl": "pre-noun adjectival",
+    "skip": false
+  },
+  "副詞可能": {
+    "expl": "possible adverb",
+    "skip": false
+  },
+  "形容詞": {
+    "expl": "i-adjective",
+    "skip": false
+  },
+  "副詞化": {
+    "expl": "adverb",
+    "skip": false
+  },
+  "組織": {
+    "expl": "organization",
+    "skip": true
+  },
+  "フィラー": {
+    "expl": "filler",
+    "skip": true
+  },
+  "連語": {
+    "expl": "compound word; phrase; collocation​",
+    "skip": false
+  },
+  "助動詞語幹": {
+    "expl": "auxiliary verb",
+    "skip": true
+  },
+  "姓": {
+    "expl": "surname; family name​",
+    "skip": true
+  },
+  "接頭詞": {
+    "expl": "prefix",
+    "skip": true
+  },
+  "名詞接続": {
+    "expl": "noun; conjunction",
+    "skip": true
+  },
+  "副助詞／並立助詞／終助詞": {
+    "expl": "adverbial particle; parallel marker /particle used to list items /sentence-ending particle",
+    "skip": true
+  },
+  "感動詞": {
+    "expl": "interjection",
+    "skip": true
+  },
+  "括弧開": {
+    "expl": "parentheses; brackets​",
+    "skip": true
+  },
+  "括弧閉": {
+    "expl": "close bracket",
+    "skip": true
+  },
+  "助数詞": {
+    "expl": "counter suffix​",
+    "skip": false
+  },
+  "特殊": {
+    "expl": "special; particular; peculiar; unique",
+    "skip": false
+  },
+  "ナイ形容詞語幹": {
+    "expl": "i-adjective",
+    "skip": false
+  },
+  "数接続": {
+    "expl": "counting conjunction",
+    "skip": true
+  },
+  "形容詞接続": {
+    "expl": "i-adjective conjunction",
+    "skip": true
+  },
+  "動詞非自立的": {
+    "expl": "verb not independent​",
+    "skip": false
+  },
+  "接続詞的": {
+    "expl": "conjunction",
+    "skip": true
+  },
+  "動詞接続": {
+    "expl": "verb conjunction",
+    "skip": true
+  },
+  "アルファベット": {
+    "expl": "alphabet",
+    "skip": true
+  },
+  "その他": {
+    "expl": "etc; in addition to",
+    "skip": true
+  },
+  "間投": {
+    "expl": "interjection",
+    "skip": true
+  },
+  "空白": {
+    "expl": "blank space; vacuum; space; null",
+    "skip": true
+  },
+  "*": {
+    "expl": null,
+    "skip": false
+  }
+}
