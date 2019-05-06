@@ -1,6 +1,6 @@
 {
   "name": "wanikani-level",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Analyzes a Japanese sentence and decides at what level of Wanikani you can read it.",
   "main": "lib/index.js",
   "files": [
